@@ -5,7 +5,7 @@ function ballCollector(detritus) {
   for (i = 0; i < detritus.length; i++) {
     if (detritus[i] === 58) {
       sack.weight += 58;
-    } 
-  }
+    }; 
+  };
   return sack;
-}
+};
